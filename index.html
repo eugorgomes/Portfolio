@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Utilizar caracteres brasileiros -->
+	<meta charset="utf-8">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+	<!-- Usado para responsividade do site -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Links para o arquivo de estilo e do css do bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	<title>Portfólio Igor</title>
+</head>
+<body>
+	<!-- Criação do menu superior -->
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand h1 mb-9" href="#">Igor Gomes</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#itensMenu">
+				<span>
+					<img src="img/menu.svg" width="30px" height="30px">
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="itensMenu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#capa">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#trabalhos">Trabalhos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#sobremim">Sobre mim</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contatos">Contatos</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Fim do menu superior -->
+	<div class="container" >
+		<img src="img/capa.png" alt="Quadrados vazados com as palavras art, design e coding" id="capa">
+		<div class="titulos" align="center">
+			<h2 id="trabalhos">TRABALHOS</h2>
+			<h6>Um pouco do que eu faço</h6>
+		</div>		
+	</div>
+	<!-- Criação dos cards -->
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-sm-4">
+				<a href="#" class="card-link" data-toggle="modal" data-target="#wish">
+					<div class="card my-3 mx-auto">
+						<img class="card-img-top zoom" src="img/wish.png">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#" class="card-link" data-toggle="modal" data-target="#proteasy">	
+					<div class="card my-3 mx-auto">
+						<img class="card-img-top zoom" src="img/proteasy.png">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#" class="card-link" data-toggle="modal" data-target="#sombras">
+					<div class="card my-3 mx-auto">
+						<img class="card-img-top zoom" src="img/sombras.png">
+					</div>
+				</a>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<a href="#" class="card-link" data-toggle="modal" data-target="#bonsai">
+					<div class="card my-3 mx-auto">
+						<img class="card-img-top zoom" src="img/bonsai.png">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#" class="card-link" data-toggle="modal" data-target="#mosaico">
+					<div class="card my-3 mx-auto">
+						<img class="card-img-top zoom" src="img/mosaico.png">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#" class="card-link" data-toggle="modal" data-target="#cellier">
+					<div class="card my-3 mx-auto">
+						<img class="card-img-top zoom" src="img/img3.png">
+					</div>
+				</a>
+			</div>	
+		</div>
+	</div>
+	<!-- Fim dos cards -->
+	<!-- Sobre mim -->
+	<div class="container ">
+		<div class="titulos" id="sobremim">
+			<h2>SOBRE MIM</h2>
+			<h6>Um pouco do que eu sou</h6>
+		</div>
+		<div class="row"> 
+			<div class="col-2">
+				
+			</div>
+		    <div class="col-lg">
+		    	<div>
+		    		<img src="img/a33.png" width="100%" id="fotoSM">
+		    	</div>
+		    </div>
+		    <div class="col-lg">
+		    	<div>
+				     <p id="textoSM">
+					 Olá, meu nome é Igor Gomes, sou estudante de sistemas e mídias digitais na universidade federal do Ceará. Eu costumo trabalhar com front-end, design de interfaces, arte generativa, logos e programação. Atualmente vivo em fortaleza e tenho como hobbies reflexões filosóficas, tecido acrobático e videogames.
+					</p>
+		    	</div>
+		    </div>
+		    <div class="col-2">
+		    	
+		    </div>
+		</div>
+		
+	</div>
+	<!-- Fim do sobre mim -->
+
+	<!-- Contatos -->
+	<div class="container">
+		<div class="titulos" id="contatos">
+			<h2>CONTATOS</h2>
+			<h6>Entre em contato para projetos prosissionais, colaborações ou só dizer oi :)</h6>
+		</div>
+		<div id="linksContatos">
+			<a href="mailto:igorgomesferreira@hotmail.com" target="_blank"><img src="img/envelope.png" id="email" class="zoom2"></a>
+			<a href="https://www.instagram.com/eugor_gomes/?hl=pt-br" target="_blank"><img src="img/instagram.png" width="28px" id="insta" class="zoom2"></a>
+			<a href="https://www.linkedin.com/in/igor-gomes-09462a119/" target="_blank"><img src="img/linkedin.png" height="28px" id="linkedin" class="zoom2"></a>
+		</div>
+	</div>
+	<!-- Fim do contatos -->
+
+	<div class="rodape">
+		Orgulhosamente desenvolvido por Igor Gomes
+	</div>
+
+	<!-- Criação dos modais -->
+	
+
+	<div class="modal fade" id="wish" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Desejo da Floresta</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>
+							&times;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>O jogo "Desejo da floresta" traz a reflexão sobre questões ambientais como o desmatamento com uma narrativa baseada na jornada do herói, uma mecânica no estilo plataforma e uma arte inspirada em art nouveau. Nele, a protagonista Anle descobre que sua floresta natal está ameaçada por uma madeireira, ela então usa os poderes dos espíritos da floresta para proteger esse bem tão valioso.</p>
+					<p><span></span></p>
+					<img src="img/posterddf.png" width="100%">
+					<p><span></span></p>
+
+					<p>O projeto foi desenvolvido na equipe lua azul no curso de sistemas e mídias digitais da universidade federal do Ceará</p>
+
+					<p>Equipe formada por Igor Gomes, <a href="https://www.behance.net/vinicixsmarc" target="_blank">Marcos Vinícius</a>, <a href="https://www.behance.net/paulocost" target="_blank">Paulo Costa</a>, <a href="mailto:henriquephpcosta@gmail.com" target="_blank">Pedro Henrique</a> e <a href="mailto:arthureduardo1@hotmail.com" target="_blank">Arthur Eduardo</a>. </p>			
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Fechar
+					</button>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+		<div class="modal fade" id="proteasy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Proteasy</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>
+							&times;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Proteasy é um recurso digital produzido no curso de sistemas e mídias digitais da universidade federal do Ceará que visa auxiliar alunos e professores do curso de odontologia, mais especificamente da disciplina de prótese parcial removível.</p>
+					<p>O recurso vem com o propósito de simular o planejamento das próteses que antes eram feitam manualmente em papel, gerando assim uma despadronização e confusão no momento da leitura dos planejamentos.</p>
+
+					<p><span></span></p>
+					<img src="img/inicialpe.png" width="100%">
+					<p><span></span></p>
+
+					<p><span></span></p>
+					<img src="img/principalpe.png" width="100%">
+					<p><span></span></p>
+
+					<p>O projeto foi desenvolvido na equipe mosaico no curso de sistemas e mídias digitais da universidade federal do Ceará</p>
+
+					<p>Equipe formada por Igor Gomes, <a href="mailto:Triploalfa@gmail.com" target="_blank">Alessander Aquino</a>, <a href="mailto:antoniodrigues@hotmail.com" target="_blank">Neto Ribeiro</a>, <a href="mailto:Emanuelmota1337@gmail.com" target="_blank">Emanuel Mota</a>, <a href="mailto:franciscorennan.eeepeq@gmail.com" target="_blank">Francisco Rennan</a>  e <a href="mailto:gilvanfcf77@gmail.com" target="_blank">Gilvan Ferreira</a> .</p>			
+
+					
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Fechar
+					</button>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+		<div class="modal fade" id="sombras" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Sombras</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>
+							&times;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Sombras é uma aplicação desenvolvida com base em uma técnica usada em pixel arte pelo artista MortMort, a técnica consiste em: dada uma determinada cor no modo hsb, a sua cor sombreada será a matiz(hue) + x, saturação(saturation) + y e brilho(brightness) + z. Você pode ver a técnica sendo utilizada nesse <a href="https://www.youtube.com/watch?v=QhgSM_tnPM4" target="_blank">vídeo</a>.</p>
+					<p>Utilizando então a ferramenta processing, automatizei essa geração de sombras em uma aplicação. Obviamente a seleção de cores em uma cena leva em conta vários outros fatores, portanto essa aplicação serve como base para uma situação média</p>
+
+					<p><span></span></p>
+					<img src="img/sombras.png" width="100%">
+					<p><span></span></p>
+
+					<p>O projeto foi desenvolvido solo.</p>			
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Fechar
+					</button>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+		<div class="modal fade" id="bonsai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Bonsai IDV</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>
+							&times;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Identidade visual desenvolvida para a equipe bonsai do curso de sistemas e mídias digitais da universidade federal do Ceará.</p>
+					<p>A equipe bonsai é composta por um grupo de alunos do SMD-UFC que produzem soluções digitais, no semestre 2019.1 houve o redesign de sua identidade visual.</p>
+					<p>As características principais da equipe são o cuidado com o produto, seu cultivo e compromisso com o cliente. Expressamos então essas características utilizando psicologia das formas arredondadas para remeter o cuidado e o cultivo, uma tipografia mais alongada para transmitir também a seriedade e o compromisso com o cliente, além disso utilizamos de tons de azul e cinza para remeter a tecnologia, tudo isso com elementos vazados para dar um visual mais moderno para a equipe.</p>	
+
+					<p><span></span></p>
+					<img src="img/bonsai.png" width="100%">
+					<p><span></span></p>
+
+					<p>Equipe formada por Igor Gomes, <a href="https://github.com/carlosmatheusdek" target="_blank">Carlos Matheus</a>, <a href="https://github.com/0anac0" target="_blank">Ana Cláudia</a>, <a href="https://www.behance.net/vinicixsmarc" target="_blank">Marcos Vinícius</a> e <a href="https://www.behance.net/ulyflexaa151?tracking_source=search%7Culysses%20flexa" target="_blank">Ulysses Flexa</a>.</p>		
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Fechar
+					</button>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+		<div class="modal fade" id="mosaico" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Mosaico IDV</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>
+							&times;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Identidade visual desenvolvida para a equipe mosaico do curso de sistemas e mídias digitais da universidade federal do Ceará.</p>
+					<p>A equipe mosaico é composta por um grupo de alunos do SMD-UFC que produzem soluções digitais.</p>
+					<p>As características principais da equipe são a pluralidade de personalidades e talentos tendo como foco um só objetivo. Expressamos então essas características utilizando a gestalt para formar a letra M composta por outros elementos, usamos uma tipografia mais pesada para transmitir também a seriedade da equipe e as cores representam seus integrantes.</p>	
+
+					<p><span></span></p>
+					<img src="img/mosaico.png" width="100%">
+					<p><span></span></p>
+
+					<p>Equipe formada por Igor Gomes, <a href="mailto:Triploalfa@gmail.com" target="_blank">Alessander Aquino</a>, <a href="mailto:antoniodrigues@hotmail.com" target="_blank">Neto Ribeiro</a>, <a href="mailto:Emanuelmota1337@gmail.com" target="_blank">Emanuel Mota</a>, <a href="mailto:franciscorennan.eeepeq@gmail.com" target="_blank">Francisco Rennan</a>  e <a href="mailto:gilvanfcf77@gmail.com" target="_blank">Gilvan Ferreira</a> .</p>	
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Fechar
+					</button>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="cellier" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Punk Poster</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>
+							&times;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Poster produzido na disciplina de comunicação visual, utilizamos a técnica de lowpoly e inspirações do design punk para transmitir um estilo musical e ao mesmo tempo expressar nossa insatisfação com o momento político da época. </p>
+					<p>Depois da produção digital, modificamos dando um toque metálico e apliacamos uma frase referência de um álbum da banda sex pistols. Atualmente o poster está exposto nos corredores do bloco de sistemas e mídias digitais da universidade federal do Ceará.</p>
+
+					<p><span></span></p>
+					<img src="img/img3.png" width="100%">
+					<p><span></span></p>
+
+					<p>Trabalho produzido em equipe formada por Igor Gomes, <a href="http://carlosdaviportfolio.000webhostapp.com/" target="_blank">Carlos Davi</a>, <a href="https://github.com/0anac0" target="_blank">Ana Cláudia</a>, <a href="https://www.behance.net/vinicixsmarc" target="_blank">Marcos Vinícius</a> e <a href="https://www.behance.net/paulocost" target="_blank">Paulo Costa</a>. </p>			
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">
+						Fechar
+					</button>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<!-- Fim dos modais -->
+
+	<footer>
+		<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</footer>
+</body>
+</html>
